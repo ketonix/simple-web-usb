@@ -1,2 +1,2 @@
 # simple-web-usb
-Communicate with a Ketonix (Green/Blue Bluetooth) device using web-usb
+Simple example of how to communicate with a Ketonix (Green/Blue Bluetooth) device using web-usb

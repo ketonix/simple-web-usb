@@ -1,0 +1,53 @@
+<!--
+By Michel Lundell
+Sön 30 Mar 2025 10:52:59 CEST
+-->
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.ketonix.com/sdk/js/ketonixDraw.js"></script>
+</head>
+
+<body>
+    <title>Ketonix Web-USB Example</title>
+    <center>
+    <p>Ketonix Green - Web-USB example Measure Breath Ketones.</b>
+    <p>Enable the Chrome flag "Automatic detection of WebUSB-compatible devices".</p>
+        <table width="500">
+        <tr><td>
+        <ol>
+                <li> Enter "chrome://flags" in Chrome URL field and hit enter.</li>
+                <li> Search for "usb" in flags </li>
+                <li> Enable "Automatic detection of WebUSB-compatible devices"</li>
+                <li> Relaunch Chrome to make the setting effective.</li>
+
+        </ol>
+        </td></tr></table>
+        <br/>
+
+    <p id="status"></p>
+
+    <form>
+        <table width="500" border="0">
+        <tr>
+            <td colspan="3" width="50%" align="center">
+                <span id="ppmUI"></span><br/>
+                <br/>
+                <br/>
+                <br/>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><button id='startNotifications'>Connect</button></td>
+            <td align="center"><button id='blink'>Blink</button></td>
+            <td align="center"><button id="stopNotifications">Disconnect</button></td>
+        </tr>
+        </table>
+    </form>
+</center>
+<script src="app.js"></script>
+</body>
+</html>
